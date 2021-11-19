@@ -10,5 +10,5 @@ Puteti verifica versiunea de python executand comanda python --version <br/>
 <p>  pentru a il activa trebuie sa folositi comanda env\Scripts\activate in acelasi loc.  </p>
 
 # Do this
-Pentru a putea folosi django va trebui sa executati "pip install django" in cmd
-Pentru pornirea serverului este necesara executarea comenzii "python manage.py runserver"
+<p>Pentru a putea folosi django va trebui sa executati <b> "pip install django"</b> in cmd</p>
+<p>Pentru pornirea serverului este necesara executarea comenzii <b>"python manage.py runserver" </b></p>
