@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+## prima data cand luati proiectul sa nu uitati sa folositi comanda npm install pe directorul de frontend
+## pentru a avea toate scripturile incarcate.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
