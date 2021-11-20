@@ -1,12 +1,16 @@
 from django.test import TestCase
-from RecommendationSite.backend.api.views import helloWorld
+from django.http import HttpResponse,HttpRequest
 
+from . import views
 # Create your tests here.
 
 
 
 class TestTestCase(TestCase):
     def setUp(self):
+        #aici initializam obiectele daca e cazul
         pass
+
     def test_hello_world(self):
-        self.assertEqual(helloWorld(), HttpResponse("helloWorld"))
+        req = HttpRequest()
+        self.assertEqual(str(views.helloWorld(req)), str(HttpResponse("helloWorld")))
