@@ -1,0 +1,1 @@
+find -print | while read filename; do convert $filename -quality 95 -resize 600x1200 $filename; done 
